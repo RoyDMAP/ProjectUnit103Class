@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Assignment_1: View {
-    let students = ["Alice", "Bob", "Charlie", "Diana", "Emma"]
+    let students = ["Alice", "Bobby", "Charlie", "Diana", "Emma"]
     
     let studentGrades: [String: [Double]] = [
         "Alice": [85, 90, 78],
