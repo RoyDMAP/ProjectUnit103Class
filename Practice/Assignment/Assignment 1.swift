@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct Assignment_1: View {
-    let students = ["Alice", "Bobby", "Charlie", "Diana", "Emma"]
+    let students: [String] = ["Alice", "Bob", "Charlie", "Diana", "Emma"]
     
-    let studentGrades: [String: [Double]] = [
+    let studentGrades: [String: [Int]] = [
         "Alice": [85, 90, 78],
         "Bob": [92, 88, 95],
         "Charlie": [76, 82, 79],
@@ -25,11 +25,11 @@ struct Assignment_1: View {
             
             ForEach(students, id: \.self) { student in
                 if let grades = studentGrades[student] {
-                    let average = grades.reduce(0, +) / Double(grades.count)
+                    let average = Double(grades.reduce(0, +)) / Double(grades.count)
                     
                     VStack {
                         Text("Student: \(student)")
-                        Text("Grades: \(grades.map { String(Int($0)) })")
+                        Text("Grades: \(grades.map { String($0) })")
                         Text("Average: \(String(format: "%.2f", average))")
                     }
                     .padding()
