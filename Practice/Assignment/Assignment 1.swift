@@ -35,6 +35,20 @@ struct Assignment_1: View {
                     .padding()
                 }
             }
+            
+            // Display top student
+            let topStudent = students.max { student1, student2 in
+                let avg1 = Double(studentGrades[student1]?.reduce(0, +) ?? 0) / Double(studentGrades[student1]?.count ?? 1)
+                let avg2 = Double(studentGrades[student2]?.reduce(0, +) ?? 0) / Double(studentGrades[student2]?.count ?? 1)
+                return avg1 < avg2
+            }
+            
+            if let topStudent = topStudent,
+               let grades = studentGrades[topStudent] {
+                let topAverage = Double(grades.reduce(0, +)) / Double(grades.count)
+                Text("Top Student: \(topStudent) - \(String(format: "%.2f", topAverage))")
+                    .fontWeight(.bold)
+            }
         }
     }
 }

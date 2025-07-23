@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9163608A2E2F258700FC38AD /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916360892E2F257000FC38AD /* ShoppingListView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		91AE99742E2C278B0043437D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		916360892E2F257000FC38AD /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
 		91AE99662E2C278A0043437D /* ProjectUnit103.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectUnit103.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AE99732E2C278B0043437D /* ProjectUnit103Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUnit103Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AE997D2E2C278B0043437D /* ProjectUnit103UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUnit103UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +85,7 @@
 		91AE995D2E2C278A0043437D = {
 			isa = PBXGroup;
 			children = (
+				916360892E2F257000FC38AD /* ShoppingListView.swift */,
 				91AE99902E2C27D60043437D /* Practice */,
 				91AE99682E2C278A0043437D /* ProjectUnit103 */,
 				91AE99762E2C278B0043437D /* ProjectUnit103Tests */,
@@ -243,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9163608A2E2F258700FC38AD /* ShoppingListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
