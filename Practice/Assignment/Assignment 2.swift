@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct assignment_2: View {
+struct assignment: View {
     @State private var students = [
         ("Alice", [85, 90, 78]),
         ("Bob", [92, 88, 95]),
@@ -65,7 +65,7 @@ struct assignment_2: View {
                     Text("Grades: \(student.1.map { String($0) }.joined(separator: ", "))")
                         .font(.subheadline)
                         .foregroundColor(.gray)
-                    Text("Average: \(String(format: "%.1f", average(for: student.1)))")
+                    Text("Grade Average: \(String(format: "%.1f", average(for: student.1)))")
                         .font(.subheadline)
                         .foregroundColor(.blue)
                 }
@@ -98,5 +98,5 @@ struct assignment_2: View {
 }
 
 #Preview {
-    assignment_2()
+    assignment()
 }
