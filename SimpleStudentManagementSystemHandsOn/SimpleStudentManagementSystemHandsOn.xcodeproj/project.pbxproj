@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		91621EC42E35624D00C8E16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91621EAE2E35624B00C8E16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91621EB52E35624B00C8E16A;
+			remoteInfo = SimpleStudentManagementSystemHandsOn;
+		};
+		91621ECE2E35624D00C8E16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91621EAE2E35624B00C8E16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91621EB52E35624B00C8E16A;
+			remoteInfo = SimpleStudentManagementSystemHandsOn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91621EB62E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStudentManagementSystemHandsOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91621EC32E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStudentManagementSystemHandsOnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91621ECD2E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStudentManagementSystemHandsOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		91621EB82E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleStudentManagementSystemHandsOn;
+			sourceTree = "<group>";
+		};
+		91621EC62E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleStudentManagementSystemHandsOnTests;
+			sourceTree = "<group>";
+		};
+		91621ED02E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleStudentManagementSystemHandsOnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91621EB32E35624B00C8E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91621EC02E35624D00C8E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91621ECA2E35624D00C8E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91621EAD2E35624B00C8E16A = {
+			isa = PBXGroup;
+			children = (
+				91621EB82E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn */,
+				91621EC62E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnTests */,
+				91621ED02E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnUITests */,
+				91621EB72E35624B00C8E16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91621EB72E35624B00C8E16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91621EB62E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn.app */,
+				91621EC32E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnTests.xctest */,
+				91621ECD2E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91621EB52E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91621ED72E35624D00C8E16A /* Build configuration list for PBXNativeTarget "SimpleStudentManagementSystemHandsOn" */;
+			buildPhases = (
+				91621EB22E35624B00C8E16A /* Sources */,
+				91621EB32E35624B00C8E16A /* Frameworks */,
+				91621EB42E35624B00C8E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				91621EB82E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn */,
+			);
+			name = SimpleStudentManagementSystemHandsOn;
+			packageProductDependencies = (
+			);
+			productName = SimpleStudentManagementSystemHandsOn;
+			productReference = 91621EB62E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91621EC22E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91621EDA2E35624D00C8E16A /* Build configuration list for PBXNativeTarget "SimpleStudentManagementSystemHandsOnTests" */;
+			buildPhases = (
+				91621EBF2E35624D00C8E16A /* Sources */,
+				91621EC02E35624D00C8E16A /* Frameworks */,
+				91621EC12E35624D00C8E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91621EC52E35624D00C8E16A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				91621EC62E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnTests */,
+			);
+			name = SimpleStudentManagementSystemHandsOnTests;
+			packageProductDependencies = (
+			);
+			productName = SimpleStudentManagementSystemHandsOnTests;
+			productReference = 91621EC32E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91621ECC2E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91621EDD2E35624D00C8E16A /* Build configuration list for PBXNativeTarget "SimpleStudentManagementSystemHandsOnUITests" */;
+			buildPhases = (
+				91621EC92E35624D00C8E16A /* Sources */,
+				91621ECA2E35624D00C8E16A /* Frameworks */,
+				91621ECB2E35624D00C8E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91621ECF2E35624D00C8E16A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				91621ED02E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnUITests */,
+			);
+			name = SimpleStudentManagementSystemHandsOnUITests;
+			packageProductDependencies = (
+			);
+			productName = SimpleStudentManagementSystemHandsOnUITests;
+			productReference = 91621ECD2E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91621EAE2E35624B00C8E16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					91621EB52E35624B00C8E16A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					91621EC22E35624D00C8E16A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 91621EB52E35624B00C8E16A;
+					};
+					91621ECC2E35624D00C8E16A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 91621EB52E35624B00C8E16A;
+					};
+				};
+			};
+			buildConfigurationList = 91621EB12E35624B00C8E16A /* Build configuration list for PBXProject "SimpleStudentManagementSystemHandsOn" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91621EAD2E35624B00C8E16A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 91621EB72E35624B00C8E16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91621EB52E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn */,
+				91621EC22E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnTests */,
+				91621ECC2E35624D00C8E16A /* SimpleStudentManagementSystemHandsOnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91621EB42E35624B00C8E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91621EC12E35624D00C8E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91621ECB2E35624D00C8E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91621EB22E35624B00C8E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91621EBF2E35624D00C8E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91621EC92E35624D00C8E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91621EC52E35624D00C8E16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91621EB52E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn */;
+			targetProxy = 91621EC42E35624D00C8E16A /* PBXContainerItemProxy */;
+		};
+		91621ECF2E35624D00C8E16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91621EB52E35624B00C8E16A /* SimpleStudentManagementSystemHandsOn */;
+			targetProxy = 91621ECE2E35624D00C8E16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91621ED52E35624D00C8E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8344Y5PFV3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91621ED62E35624D00C8E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8344Y5PFV3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91621ED82E35624D00C8E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8344Y5PFV3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.SimpleStudentManagementSystemHandsOn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91621ED92E35624D00C8E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8344Y5PFV3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.SimpleStudentManagementSystemHandsOn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91621EDB2E35624D00C8E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8344Y5PFV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.SimpleStudentManagementSystemHandsOnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStudentManagementSystemHandsOn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleStudentManagementSystemHandsOn";
+			};
+			name = Debug;
+		};
+		91621EDC2E35624D00C8E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8344Y5PFV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.SimpleStudentManagementSystemHandsOnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStudentManagementSystemHandsOn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleStudentManagementSystemHandsOn";
+			};
+			name = Release;
+		};
+		91621EDE2E35624D00C8E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8344Y5PFV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.SimpleStudentManagementSystemHandsOnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleStudentManagementSystemHandsOn;
+			};
+			name = Debug;
+		};
+		91621EDF2E35624D00C8E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8344Y5PFV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.SimpleStudentManagementSystemHandsOnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleStudentManagementSystemHandsOn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91621EB12E35624B00C8E16A /* Build configuration list for PBXProject "SimpleStudentManagementSystemHandsOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91621ED52E35624D00C8E16A /* Debug */,
+				91621ED62E35624D00C8E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91621ED72E35624D00C8E16A /* Build configuration list for PBXNativeTarget "SimpleStudentManagementSystemHandsOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91621ED82E35624D00C8E16A /* Debug */,
+				91621ED92E35624D00C8E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91621EDA2E35624D00C8E16A /* Build configuration list for PBXNativeTarget "SimpleStudentManagementSystemHandsOnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91621EDB2E35624D00C8E16A /* Debug */,
+				91621EDC2E35624D00C8E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91621EDD2E35624D00C8E16A /* Build configuration list for PBXNativeTarget "SimpleStudentManagementSystemHandsOnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91621EDE2E35624D00C8E16A /* Debug */,
+				91621EDF2E35624D00C8E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91621EAE2E35624B00C8E16A /* Project object */;
+}
