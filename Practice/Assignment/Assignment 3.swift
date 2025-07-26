@@ -158,7 +158,7 @@ struct Assignment_3: View {
         let trimmedName = newName.trimmingCharacters(in: .whitespacesAndNewlines)
         
         // Validate name
-        guard !trimmedName.isEmpty else {
+        if trimmedName.isEmpty {
             showAlert("Please enter a student name.")
             return
         }
