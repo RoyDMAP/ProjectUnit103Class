@@ -37,7 +37,7 @@ struct Assignment_3: View {
         Student(name: "Bob", grades: [92, 88, 95]),
         Student(name: "Charlie", grades: [76, 82, 79]),
         Student(name: "Diana", grades: [94, 96, 91]),
-        Student(name: "Emma", grades: [88, 84, 90])
+        Student(name: "Emmaa", grades: [88, 84, 90])
     ]
     
     @State private var isAscending = true
